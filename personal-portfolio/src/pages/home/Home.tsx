@@ -3,12 +3,12 @@ import { useState } from "react";
 
 export default function Home() {
     const [description] = useState(
-        "Hey there! I'm currently an undergraduate student at Towson University, set to graduate in May 2026 with a major in computer science. I aspire to become a Software Engineer and I'm open to exploring opportunities in the field. Learn more about me below and let's connect!"
+        `Hey there! I'm Romerico and I'm currently a junior at Towson University, set to graduate in May 2026 with a major in Computer Science. I am interested in full-stack development and I'm open to exploring opportunities in the field. Learn more about me below and let's connect! You can view my resume `
     );
 
     return (
         <div className="container mt-5">
-            <section className="hero-section text-left mb-5">
+            <section className="text-left mb-5">
                 <div className="row align-items-center">
                     <div className="col-md-4 text-center">
                         <img
@@ -52,7 +52,17 @@ export default function Home() {
                     </div>
                     <div className="col-md-8 d-flex align-items-center">
                         <blockquote className="blockquote">
-                            <p className="mb-0 text-center">{description}</p>
+                            <p className="mb-0 text-center">
+                                {description}
+                                <a
+                                    href="../../../public/Romerico David Jr Resume.pdf"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    here
+                                </a>
+                                .
+                            </p>
                         </blockquote>
                     </div>
                 </div>
@@ -83,7 +93,7 @@ export default function Home() {
                             <button className="fullscreen-button">[ ]</button>
                         </div>
                         <p className="description">
-                            Add your basketball description here.
+                            Basketball description here.
                         </p>
                     </div>
 
@@ -106,7 +116,7 @@ export default function Home() {
                             <button className="fullscreen-button">[ ]</button>
                         </div>
                         <p className="description">
-                            Add your food description here.
+                            Food description here.
                         </p>
                     </div>
 
@@ -129,7 +139,7 @@ export default function Home() {
                             <button className="fullscreen-button">[ ]</button>
                         </div>
                         <p className="description">
-                            Add your media description here.
+                            Media description here.
                         </p>
                     </div>
                 </div>

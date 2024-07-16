@@ -25,7 +25,8 @@
   },
   "include": [
     "src",
+    "src/assets/data/experiences.json",
     "src/assets/data/projects.json",
-    "src/assets/data/experiences.json"
+    "src/assets/data/skills.json",
   ]
 }

@@ -1,0 +1,36 @@
+{
+    "Programming Languages": [
+        { "id": "PL1", "skillName": "Java", "image": "#" },
+        { "id": "PL2", "skillName": "Python", "image": "#" },
+        { "id": "PL3", "skillName": "C++", "image": "#" },
+        { "id": "PL4", "skillName": "HTML", "image": "#" },
+        { "id": "PL5", "skillName": "CSS", "image": "#" },
+        { "id": "PL6", "skillName": "JavaScript (Node.js)", "image": "#" },
+        { "id": "PL7", "skillName": "TypeScript", "image": "#" },
+        { "id": "PL8", "skillName": "JSX/TSX", "image": "#" },
+        { "id": "PL9", "skillName": "LaTeX", "image": "#" }
+    ],
+    "Frameworks/Libraries": [
+        { "id": "FL1", "skillName": "Express.js", "image": "#" },
+        { "id": "FL2", "skillName": "React.js", "image": "#" },
+        { "id": "FL3", "skillName": "Next.js", "image": "#" },
+        { "id": "FL4", "skillName": "Angular", "image": "#" },
+        { "id": "FL5", "skillName": "MongoDB", "image": "#" },
+        { "id": "FL6", "skillName": "Bootstrap", "image": "#" },
+        { "id": "FL7", "skillName": "Axios", "image": "#" },
+        { "id": "FL8", "skillName": "PyTorch", "image": "#" },
+        { "id": "FL9", "skillName": "NumPy", "image": "#" },
+        { "id": "FL10", "skillName": "Matplotlib", "image": "#" },
+        { "id": "FL11", "skillName": "pandas", "image": "#" }
+    ],
+    "Databases": [
+        { "id": "DB1", "skillName": "MongoDB", "image": "#" }
+    ],
+    "Developer Tools": [
+        { "id": "DT1", "skillName": "Visual Studio Code", "image": "#" },
+        { "id": "DT2", "skillName": "Anaconda", "image": "#" },
+        { "id": "DT3", "skillName": "Jupyter Notebook", "image": "#" },
+        { "id": "DT4", "skillName": "Git", "image": "#" },
+        { "id": "DT5", "skillName": "GitHub", "image": "#" }
+    ]
+}

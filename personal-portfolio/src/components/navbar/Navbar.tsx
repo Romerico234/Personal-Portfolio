@@ -25,7 +25,7 @@ export default function Navbar() {
                             <a className="nav-link custom-nav-link" href="about-me">
                                 About Me
                                 <img
-                                    src="../../../public/images/navbar-images/person-closed.png"
+                                    src="../../../public/images/navbar-images/person.png"
                                     alt="Home Page"
                                     className="navbar-img"
                                 />
@@ -38,7 +38,7 @@ export default function Navbar() {
                             >
                                 Work Experiences
                                 <img
-                                    src="../../../public/images/navbar-images/experience-closed.png"
+                                    src="../../../public/images/navbar-images/suitcase.png"
                                     alt="Work Experiences!"
                                     className="navbar-img"
                                 />
@@ -47,12 +47,25 @@ export default function Navbar() {
                         <li className="nav-item">
                             <a
                                 className="nav-link custom-nav-link"
-                                href="projects-and-skills"
+                                href="skills"
                             >
-                                Projects and Skills
+                                Skills
                                 <img
-                                    src="../../../public/images/navbar-images/folder-closed.png"
-                                    alt="Projects and Skills!"
+                                    src="../../../public/images/navbar-images/skills.png"
+                                    alt="Skills!"
+                                    className="navbar-img"
+                                />
+                            </a>
+                        </li>
+                        <li className="nav-item">
+                            <a
+                                className="nav-link custom-nav-link"
+                                href="projects"
+                            >
+                                Projects
+                                <img
+                                    src="../../../public/images/navbar-images/folder.png"
+                                    alt="Projects!"
                                     className="navbar-img"
                                 />
                             </a>

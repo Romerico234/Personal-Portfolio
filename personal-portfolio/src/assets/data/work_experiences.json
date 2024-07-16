@@ -6,7 +6,7 @@
         "jobTitle": "Computer Science Peer Tutor",
         "startDate": "Feb 2024",
         "endDate": "present",
-        "description": "test"
+        "description": "I provide drop-in tutoring sessions for up to 10 students, focusing on Java, Python, and C++. My role involves assisting students in understanding fundamental concepts in data structures, algorithms, and both structured and object-oriented programming principles."
     },
     {
         "id": 2,
@@ -15,7 +15,7 @@
         "jobTitle": "Undergraduate Researcher in Federated Learning",
         "startDate": "Aug 2023",
         "endDate": "Jan 2024",
-        "description": "test"
+        "description": "As an Undergraduate Researcher in Federated Learning at Towson University, I used the Flower Federated Learning (FL) framework, which is based on TensorFlow. My research focused on evaluating and comparing FL aggregation methods like FedAvg, FedProx, and QffedAvg under various types of model poisoning attacks during the data processing and model training stages."
     },
     {
         "id": 3,
@@ -24,6 +24,6 @@
         "jobTitle": "Research Intern",
         "startDate": "June 2023",
         "endDate": "July 2023",
-        "description": "test"
+        "description": "I was selected as one of twelve students in the TIGURS summer undergraduate research program. I used PyTorch, NumPy, pandas, Matplotlib, and scikit-learn to explore concepts on artificial neural networks. I implemented and evaluated feed-forward, convolutional, and recurrent neural networks using the MNIST and CIFAR-10 datasets. I evaluated these networks on metrics such as Accuracy, Confusion Matrix, Precision, and Recall. "
     }
 ]

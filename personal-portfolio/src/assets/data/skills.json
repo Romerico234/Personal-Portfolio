@@ -14,10 +14,9 @@
         { "id": "FL2", "skillName": "React.js", "image": "../../../public/images/skills-images/react.png" },
         { "id": "FL3", "skillName": "Angular", "image": "../../../public/images/skills-images/angular.jpg" },
         { "id": "FL5", "skillName": "Bootstrap", "image": "../../../public/images/skills-images/bootstrap.png" },
-        { "id": "FL6", "skillName": "PyTorch", "image": "../../../public/images/skills-images/pytorch.png" },
-        { "id": "FL7", "skillName": "NumPy", "image": "../../../public/images/skills-images/numpy.svg" },
-        { "id": "FL8", "skillName": "Matplotlib", "image": "../../../public/images/skills-images/matplotlib.svg" },
-        { "id": "FL9", "skillName": "pandas", "image": "../../../public/images/skills-images/pandas.svg" }
+        { "id": "FL6", "skillName": "NumPy", "image": "../../../public/images/skills-images/numpy.svg" },
+        { "id": "FL7", "skillName": "Matplotlib", "image": "../../../public/images/skills-images/matplotlib.svg" },
+        { "id": "FL8", "skillName": "pandas", "image": "../../../public/images/skills-images/pandas.svg" }
     ],
     "Databases": [
         { "id": "DB1", "skillName": "MongoDB", "image": "../../../public/images/skills-images/mongodb.svg" }

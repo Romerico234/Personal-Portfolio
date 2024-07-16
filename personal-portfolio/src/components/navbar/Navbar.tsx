@@ -2,9 +2,11 @@ import "./Navbar.css";
 
 export default function Navbar() {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <nav className="navbar navbar-expand-lg navbar-light bg-body-tertiary">
             <div className="container-fluid">
-                <a className="navbar-brand">Romerico David</a>
+                <a className="navbar-brand">
+                    Romerico David
+                </a>
                 <button
                     className="navbar-toggler"
                     type="button"
@@ -31,7 +33,7 @@ export default function Navbar() {
                             </a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="experiences">
+                            <a className="nav-link" href="work-experiences">
                                 <img
                                     src="/src/assets/images/navbar-images/experience-closed.png"
                                     alt="Work Experiences!"

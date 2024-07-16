@@ -11,7 +11,7 @@ interface Project {
 export default function ProjectsList() {
     return (
         <div className="container mt-5">
-            <h1>Projects List</h1>
+            <h1>Projects</h1>
             {projectsData.map((project: Project) => (
                 <ProjectsItem key={project.id} project={project} />
             ))}

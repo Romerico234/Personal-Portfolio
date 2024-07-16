@@ -14,7 +14,7 @@ export default function Skills() {
     const skills: SkillsData = skillsData;
 
     return (
-        <div>
+        <div className="container">
             <h1>My Skills</h1>
             {Object.keys(skills).map((category) => (
                 <div key={category}>

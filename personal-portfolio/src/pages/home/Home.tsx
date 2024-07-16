@@ -1,5 +1,6 @@
 import me from "../../assets/images/me.png";
 import "./Home.css";
+import AboutMe from "../about-me/AboutMe";
 
 export default function Home() {
     return (
@@ -18,6 +19,7 @@ export default function Home() {
                 <h2>Romerico David</h2>
                 <p className="lead">Aspiring Software Engineer</p>
             </section>
+            <AboutMe />
         </div>
     );
 }

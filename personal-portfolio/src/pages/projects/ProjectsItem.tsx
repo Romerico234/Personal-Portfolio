@@ -11,7 +11,7 @@ interface ProjectItemProps {
 
 export default function ProjectsItem({ project }: ProjectItemProps) {
     return (
-        <div>
+        <div className="container">
             <h2>{project.name}</h2>
             <p>{project.description}</p>
             <a href={project.link} target="_blank" rel="noopener noreferrer">

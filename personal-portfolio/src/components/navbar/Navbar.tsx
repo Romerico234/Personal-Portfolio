@@ -26,7 +26,7 @@ export default function Navbar() {
                         <li className="nav-item">
                             <a className="nav-link active" href="home">
                             <img
-                                    src="/src/assets/images/home-closed.png"
+                                    src="/src/assets/images/navbar-images/home-closed.png"
                                     alt="Home Page"
                                     className="navbar-img"
                                 />
@@ -35,7 +35,7 @@ export default function Navbar() {
                         <li className="nav-item">
                             <a className="nav-link" href="about-me">
                                 <img
-                                    src="/src/assets/images/person-closed.png"
+                                    src="/src/assets/images/navbar-images/person-closed.png"
                                     alt="About Me!"
                                     className="navbar-img"
                                 />
@@ -44,7 +44,7 @@ export default function Navbar() {
                         <li className="nav-item">
                             <a className="nav-link" href="experiences">
                                 <img
-                                    src="/src/assets/images/experience-closed.png"
+                                    src="/src/assets/images/navbar-images/experience-closed.png"
                                     alt="Work Experiences!"
                                     className="navbar-img"
                                 />
@@ -53,7 +53,7 @@ export default function Navbar() {
                         <li className="nav-item">
                             <a className="nav-link" href="projects-and-skills">
                                 <img
-                                    src="/src/assets/images/folder-closed.png"
+                                    src="/src/assets/images/navbar-images/folder-closed.png"
                                     alt="Projects and Skills!"
                                     className="navbar-img"
                                 />
@@ -62,7 +62,7 @@ export default function Navbar() {
                         <li className="nav-item">
                             <a className="nav-link" href="contact-info">
                                 <img
-                                    src="/src/assets/images/contact-closed.png"
+                                    src="/src/assets/images/navbar-images/contact-closed.png"
                                     alt="My Contacts!"
                                     className="navbar-img"
                                 />

@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "company": "Towson University",
+        "location": "Towson, MD",
+        "jobTitle": "Computer Science Peer Tutor",
+        "startDate": "Feb 2024",
+        "endDate": "present",
+        "description": "test"
+    },
+    {
+        "id": 2,
+        "company": "Towson University",
+        "location": "Towson, MD",
+        "jobTitle": "Undergraduate Researcher in Federated Learning",
+        "startDate": "Aug 2023",
+        "endDate": "Jan 2024",
+        "description": "test"
+    },
+    {
+        "id": 3,
+        "company": "Towson University",
+        "location": "Towson, MD",
+        "jobTitle": "Research Intern",
+        "startDate": "June 2023",
+        "endDate": "July 2023",
+        "description": "test"
+    }
+]

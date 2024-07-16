@@ -23,5 +23,9 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src"]
+  "include": [
+    "src",
+    "src/assets/data/projects.json",
+    "src/assets/data/experiences.json"
+  ]
 }

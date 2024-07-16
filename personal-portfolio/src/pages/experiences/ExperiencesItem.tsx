@@ -12,11 +12,15 @@ interface Experience {
 
 interface ExperienceItemProps {
     experience: Experience;
+    position: "left" | "right";
 }
 
-export default function ExperienceItem({ experience }: ExperienceItemProps) {
+export default function ExperiencesItem({
+    experience,
+    position,
+}: ExperienceItemProps) {
     return (
-        <div className="timeline-item mt-5 mb-3">
+        <div className={`timeline-item ${position} mt-5 mb-3`}>
             <div className="timeline-marker"></div>
             <div className="timeline-content">
                 <h2 className="h5 mb-1">{experience.jobTitle}</h2>

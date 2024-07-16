@@ -19,12 +19,17 @@ export default function ExperiencesList() {
             <div className="row">
                 <div className="col-md-12">
                     <div className="timeline">
-                        {experiences.map((experience: Experience) => (
-                            <ExperienceItem
-                                key={experience.id}
-                                experience={experience}
-                            />
-                        ))}
+                        {experiences.map(
+                            (experience: Experience, index: number) => (
+                                <ExperienceItem
+                                    key={experience.id}
+                                    experience={experience}
+                                    position={
+                                        index % 2 === 0 ? "left" : "right"
+                                    }
+                                />
+                            )
+                        )}
                     </div>
                 </div>
             </div>

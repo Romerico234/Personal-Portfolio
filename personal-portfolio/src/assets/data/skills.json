@@ -1,36 +1,32 @@
 {
     "Programming Languages": [
-        { "id": "PL1", "skillName": "Java", "image": "#" },
-        { "id": "PL2", "skillName": "Python", "image": "#" },
-        { "id": "PL3", "skillName": "C++", "image": "#" },
-        { "id": "PL4", "skillName": "HTML", "image": "#" },
-        { "id": "PL5", "skillName": "CSS", "image": "#" },
-        { "id": "PL6", "skillName": "JavaScript (Node.js)", "image": "#" },
-        { "id": "PL7", "skillName": "TypeScript", "image": "#" },
-        { "id": "PL8", "skillName": "JSX/TSX", "image": "#" },
-        { "id": "PL9", "skillName": "LaTeX", "image": "#" }
+        { "id": "PL1", "skillName": "Java", "image": "../../../public/images/skills-images/java.png" },
+        { "id": "PL2", "skillName": "Python", "image": "../../../public/images/skills-images/python.png" },
+        { "id": "PL3", "skillName": "C++", "image": "../../../public/images/skills-images/c++.png" },
+        { "id": "PL4", "skillName": "HTML", "image": "../../../public/images/skills-images/html-5.png" },
+        { "id": "PL5", "skillName": "CSS", "image": "../../../public/images/skills-images/css-3.png" },
+        { "id": "PL6", "skillName": "JavaScript (Node.js)", "image": "../../../public/images/skills-images/javascript.png" },
+        { "id": "PL7", "skillName": "TypeScript", "image": "../../../public/images/skills-images/typescript.png" },
+        { "id": "PL8", "skillName": "LaTeX", "image": "../../../public/images/skills-images/latex.png" }
     ],
     "Frameworks/Libraries": [
-        { "id": "FL1", "skillName": "Express.js", "image": "#" },
-        { "id": "FL2", "skillName": "React.js", "image": "#" },
-        { "id": "FL3", "skillName": "Next.js", "image": "#" },
-        { "id": "FL4", "skillName": "Angular", "image": "#" },
-        { "id": "FL5", "skillName": "MongoDB", "image": "#" },
-        { "id": "FL6", "skillName": "Bootstrap", "image": "#" },
-        { "id": "FL7", "skillName": "Axios", "image": "#" },
-        { "id": "FL8", "skillName": "PyTorch", "image": "#" },
-        { "id": "FL9", "skillName": "NumPy", "image": "#" },
-        { "id": "FL10", "skillName": "Matplotlib", "image": "#" },
-        { "id": "FL11", "skillName": "pandas", "image": "#" }
+        { "id": "FL1", "skillName": "Express.js", "image": "../../../public/images/skills-images/express.webp" },
+        { "id": "FL2", "skillName": "React.js", "image": "../../../public/images/skills-images/react.png" },
+        { "id": "FL3", "skillName": "Angular", "image": "../../../public/images/skills-images/angular.jpg" },
+        { "id": "FL5", "skillName": "Bootstrap", "image": "../../../public/images/skills-images/bootstrap.png" },
+        { "id": "FL6", "skillName": "PyTorch", "image": "../../../public/images/skills-images/pytorch.png" },
+        { "id": "FL7", "skillName": "NumPy", "image": "../../../public/images/skills-images/numpy.svg" },
+        { "id": "FL8", "skillName": "Matplotlib", "image": "../../../public/images/skills-images/matplotlib.svg" },
+        { "id": "FL9", "skillName": "pandas", "image": "../../../public/images/skills-images/pandas.svg" }
     ],
     "Databases": [
-        { "id": "DB1", "skillName": "MongoDB", "image": "#" }
+        { "id": "DB1", "skillName": "MongoDB", "image": "../../../public/images/skills-images/mongodb.svg" }
     ],
     "Developer Tools": [
-        { "id": "DT1", "skillName": "Visual Studio Code", "image": "#" },
-        { "id": "DT2", "skillName": "Anaconda", "image": "#" },
-        { "id": "DT3", "skillName": "Jupyter Notebook", "image": "#" },
-        { "id": "DT4", "skillName": "Git", "image": "#" },
-        { "id": "DT5", "skillName": "GitHub", "image": "#" }
+        { "id": "DT1", "skillName": "Visual Studio Code", "image": "../../../public/images/skills-images/vscode.png" },
+        { "id": "DT2", "skillName": "Anaconda", "image": "../../../public/images/skills-images/anaconda.png" },
+        { "id": "DT3", "skillName": "Jupyter Notebook", "image": "../../../public/images/skills-images/jupyter.png" },
+        { "id": "DT4", "skillName": "Git", "image": "../../../public/images/skills-images/git.png" },
+        { "id": "DT5", "skillName": "GitHub", "image": "../../../public/images/skills-images/github.svg" }
     ]
 }

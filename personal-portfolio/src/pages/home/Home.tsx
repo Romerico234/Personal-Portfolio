@@ -1,8 +1,4 @@
 import "./Home.css";
-import me from "../../assets/images/home-page-images/me.png";
-import github_logo from "../../assets/images/home-page-images/github_logo.png";
-import linkedin_logo from "../../assets/images/home-page-images/linkedin_logo.png";
-import email_logo from "../../assets/images/home-page-images/email_logo.png";
 import { useState } from "react";
 
 export default function Home() {
@@ -16,7 +12,7 @@ export default function Home() {
                 <div className="row align-items-center">
                     <div className="col-md-4 text-center">
                         <img
-                            src={me}
+                            src="../../../public/images/home-page-images/me.png"
                             alt="Me!"
                             className="img-fluid rounded-circle mb-3 custom-border"
                             style={{ width: "500px" }}
@@ -29,7 +25,7 @@ export default function Home() {
                                 rel="noopener noreferrer"
                             >
                                 <img
-                                    src={github_logo}
+                                    src="../../../public/images/home-page-images/github-logo.png"
                                     alt="GitHub"
                                     className="contact-icon"
                                 />
@@ -40,15 +36,15 @@ export default function Home() {
                                 rel="noopener noreferrer"
                             >
                                 <img
-                                    src={linkedin_logo}
+                                    src="../../../public/images/home-page-images/linkedin-logo.png"
                                     alt="LinkedIn"
                                     className="contact-icon"
                                 />
                             </a>
                             <a href="mailto:romedavid2@outlook.com">
                                 <img
-                                    src={email_logo}
-                                    alt="Email"
+                                    src="../../../public/images/home-page-images/email-logo.png"
+                                    alt="romedavid2@outlook.com"
                                     className="contact-icon"
                                 />
                             </a>

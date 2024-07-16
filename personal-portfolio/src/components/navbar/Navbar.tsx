@@ -4,9 +4,7 @@ export default function Navbar() {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-body-tertiary">
             <div className="container-fluid">
-                <a className="navbar-brand">
-                    Romerico David
-                </a>
+                <a className="navbar-brand">Romerico David</a>
                 <button
                     className="navbar-toggler"
                     type="button"
@@ -26,7 +24,7 @@ export default function Navbar() {
                         <li className="nav-item">
                             <a className="nav-link active" href="home">
                                 <img
-                                    src="/src/assets/images/navbar-images/home-closed.png"
+                                    src="../../../public/images/navbar-images/home-closed.png"
                                     alt="Home Page"
                                     className="navbar-img"
                                 />
@@ -35,7 +33,7 @@ export default function Navbar() {
                         <li className="nav-item">
                             <a className="nav-link" href="work-experiences">
                                 <img
-                                    src="/src/assets/images/navbar-images/experience-closed.png"
+                                    src="../../../public/images/navbar-images/experience-closed.png"
                                     alt="Work Experiences!"
                                     className="navbar-img"
                                 />
@@ -44,7 +42,7 @@ export default function Navbar() {
                         <li className="nav-item">
                             <a className="nav-link" href="projects-and-skills">
                                 <img
-                                    src="/src/assets/images/navbar-images/folder-closed.png"
+                                    src="../../../public/images/navbar-images/folder-closed.png"
                                     alt="Projects and Skills!"
                                     className="navbar-img"
                                 />

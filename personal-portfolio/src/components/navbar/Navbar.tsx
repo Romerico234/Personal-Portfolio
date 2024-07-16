@@ -1,12 +1,10 @@
-import './Navbar.css'
+import "./Navbar.css";
 
 export default function Navbar() {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <div className="container-fluid">
-                <a className="navbar-brand" href="#">
-                    Romerico David
-                </a>
+                <a className="navbar-brand">Romerico David</a>
                 <button
                     className="navbar-toggler"
                     type="button"
@@ -25,18 +23,9 @@ export default function Navbar() {
                     <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li className="nav-item">
                             <a className="nav-link active" href="home">
-                            <img
+                                <img
                                     src="/src/assets/images/navbar-images/home-closed.png"
                                     alt="Home Page"
-                                    className="navbar-img"
-                                />
-                            </a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="about-me">
-                                <img
-                                    src="/src/assets/images/navbar-images/person-closed.png"
-                                    alt="About Me!"
                                     className="navbar-img"
                                 />
                             </a>
@@ -55,15 +44,6 @@ export default function Navbar() {
                                 <img
                                     src="/src/assets/images/navbar-images/folder-closed.png"
                                     alt="Projects and Skills!"
-                                    className="navbar-img"
-                                />
-                            </a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="contact-info">
-                                <img
-                                    src="/src/assets/images/navbar-images/contact-closed.png"
-                                    alt="My Contacts!"
                                     className="navbar-img"
                                 />
                             </a>

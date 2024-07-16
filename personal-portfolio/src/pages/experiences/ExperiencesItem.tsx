@@ -16,7 +16,7 @@ interface ExperienceItemProps {
 
 export default function ExperienceItem({ experience }: ExperienceItemProps) {
     return (
-        <div className="timeline-item mb-5">
+        <div className="timeline-item mt-5 mb-3">
             <div className="timeline-marker"></div>
             <div className="timeline-content">
                 <h2 className="h5 mb-1">{experience.jobTitle}</h2>

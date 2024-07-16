@@ -14,7 +14,7 @@ interface Experience {
 
 export default function ExperiencesList() {
     return (
-        <div className="container">
+        <div className="container mt-5">
             <h1>Experiences</h1>
             <div className="row">
                 <div className="col-md-12">

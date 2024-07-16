@@ -1,4 +1,7 @@
-/* styles.css */
+h1 {
+    margin-bottom: 40px;
+}
+
 .timeline {
     position: relative;
     padding: 20px 0;

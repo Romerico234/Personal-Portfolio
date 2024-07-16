@@ -17,7 +17,7 @@ export default function Home() {
                             className="img-fluid rounded-circle mb-3 custom-border"
                             style={{ width: "500px" }}
                         />
-                        <h2>Romerico David</h2>
+                        <h2>Romerico David Jr</h2>
                         <div className="contact-info">
                             <a
                                 href="https://github.com/Romerico234"
@@ -31,7 +31,7 @@ export default function Home() {
                                 />
                             </a>
                             <a
-                                href="https://www.linkedin.com/mynetwork/network-manager/newsletters/"
+                                href="https://www.linkedin.com/in/romerico-david/"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >

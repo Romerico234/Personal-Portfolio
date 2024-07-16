@@ -4,7 +4,7 @@ export default function Navbar() {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-body-tertiary">
             <div className="container-fluid">
-                <a className="navbar-brand">Romerico David</a>
+                <a className="navbar-brand">Romerico David Jr</a>
                 <button
                     className="navbar-toggler"
                     type="button"
@@ -22,16 +22,21 @@ export default function Navbar() {
                 >
                     <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li className="nav-item">
-                            <a className="nav-link active" href="home">
+                            <a className="nav-link custom-nav-link" href="home">
+                                About Me
                                 <img
-                                    src="../../../public/images/navbar-images/home-closed.png"
+                                    src="../../../public/images/navbar-images/person-closed.png"
                                     alt="Home Page"
                                     className="navbar-img"
                                 />
                             </a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="work-experiences">
+                            <a
+                                className="nav-link custom-nav-link"
+                                href="work-experiences"
+                            >
+                                Work Experiences
                                 <img
                                     src="../../../public/images/navbar-images/experience-closed.png"
                                     alt="Work Experiences!"
@@ -40,7 +45,11 @@ export default function Navbar() {
                             </a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="projects-and-skills">
+                            <a
+                                className="nav-link custom-nav-link"
+                                href="projects-and-skills"
+                            >
+                                Projects and Skills
                                 <img
                                     src="../../../public/images/navbar-images/folder-closed.png"
                                     alt="Projects and Skills!"

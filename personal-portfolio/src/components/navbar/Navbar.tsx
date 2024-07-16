@@ -2,7 +2,7 @@ import "./Navbar.css";
 
 export default function Navbar() {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-body-tertiary">
+        <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
             <div className="container-fluid">
                 <a className="navbar-brand">Romerico David Jr</a>
                 <button
@@ -22,7 +22,7 @@ export default function Navbar() {
                 >
                     <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li className="nav-item">
-                            <a className="nav-link custom-nav-link" href="home">
+                            <a className="nav-link custom-nav-link" href="about-me">
                                 About Me
                                 <img
                                     src="../../../public/images/navbar-images/person-closed.png"

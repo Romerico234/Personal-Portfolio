@@ -15,7 +15,7 @@ interface Experience {
 export default function ExperiencesList() {
     return (
         <div className="container mt-5">
-            <h1>Work Experiences</h1>
+            <h1 className="section-header">Work Experiences</h1>
             <div className="row">
                 <div className="col-md-12">
                     <div className="timeline">

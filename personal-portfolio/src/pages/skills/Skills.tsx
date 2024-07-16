@@ -16,7 +16,7 @@ export default function Skills() {
 
     return (
         <div className="container skills-container">
-            <h1>My Skills</h1>
+            <h1 className="section-header">My Skills</h1>
             {Object.keys(skills).map((category) => (
                 <div key={category} className="skills-category">
                     <h2>{category}</h2>

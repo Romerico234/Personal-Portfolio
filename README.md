@@ -16,11 +16,11 @@ This repository contains my personal portfolio website.
     ```sh
     git clone https://github.com/Romerico234/Personal-Portfolio.git
     ```
-2. Navigate to the project directory:
+2. Navigate to the directory:
     ```sh
-    cd pesronal-portfolio
+    cd personal-portfolio
     ```
-3. Install the dependencies:
+3. Install dependencies:
     ```sh
     npm install
     ```

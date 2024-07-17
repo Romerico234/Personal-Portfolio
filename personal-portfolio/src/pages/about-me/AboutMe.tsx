@@ -37,6 +37,18 @@ export default function AboutMe() {
 
     return (
         <div>
+            <Lightbox
+                plugins={[Captions, Download, Fullscreen, Zoom, Thumbnails]}
+                captions={{
+                    showToggle: true,
+                    descriptionTextAlign: "end",
+                }}
+                index={index}
+                open={index >= 0}
+                close={() => setIndex(-1)}
+                slides={currentSlides}
+            />
+            
             <div className="about-me-container">
                 <div className="container mt-5">
                     <h1 className="section-header">About Me</h1>
@@ -166,18 +178,6 @@ export default function AboutMe() {
                     </section>
                 </div>
             </div>
-
-            <Lightbox
-                plugins={[Captions, Download, Fullscreen, Zoom, Thumbnails]}
-                captions={{
-                    showToggle: true,
-                    descriptionTextAlign: "end",
-                }}
-                index={index}
-                open={index >= 0}
-                close={() => setIndex(-1)}
-                slides={currentSlides}
-            />
         </div>
     );
 }

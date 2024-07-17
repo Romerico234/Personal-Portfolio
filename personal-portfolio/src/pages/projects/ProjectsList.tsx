@@ -1,6 +1,6 @@
 import "./Projects.css";
 import ProjectsItem from "./ProjectsItem";
-import projectsData from "../../assets/data/projects.json";
+import projectsData from "../../utils/data/projects.json";
 
 interface Project {
     id: number;

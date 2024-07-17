@@ -1,6 +1,6 @@
 import "./Experiences.css";
 import ExperienceItem from "./ExperiencesItem";
-import experiences from "../../assets/data/work_experiences.json";
+import experiences from "../../utils/data/work_experiences.json";
 
 interface Experience {
     id: number;

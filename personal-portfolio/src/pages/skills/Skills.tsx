@@ -1,4 +1,4 @@
-import skillsData from "../../assets/data/skills.json";
+import skillsData from "../../utils/data/skills.json";
 import "./Skills.css";
 
 interface Skill {

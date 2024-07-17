@@ -8,8 +8,7 @@ export default function Footer() {
                     className="text-center p-4"
                     style={{ backgroundColor: "rgba(0, 0, 0, 0.05)" }}
                 >
-                    &copy; {new Date().getFullYear()} Romerico David. All rights
-                    reserved.
+                    Made by Romerico David. Images used are the property of their respective owners.
                 </div>
             </footer>
         </div>

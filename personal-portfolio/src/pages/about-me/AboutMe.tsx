@@ -56,7 +56,7 @@ export default function AboutMe() {
                         <div className="row align-items-center">
                             <div className="col-md-4 text-center">
                                 <img
-                                    src="../../../public/images/about-me-page-images/me.png"
+                                    src="../../../images/about-me-page-images/me.png"
                                     alt="Me!"
                                     className="img-fluid rounded-circle mb-3 custom-border"
                                     style={{ width: "500px" }}
@@ -69,7 +69,7 @@ export default function AboutMe() {
                                         rel="noopener noreferrer"
                                     >
                                         <img
-                                            src="../../../public/images/about-me-page-images/github-logo.png"
+                                            src="../../../images/about-me-page-images/github-logo.png"
                                             alt="GitHub"
                                             className="contact-icon"
                                         />
@@ -80,14 +80,14 @@ export default function AboutMe() {
                                         rel="noopener noreferrer"
                                     >
                                         <img
-                                            src="../../../public/images/about-me-page-images/linkedin-logo.png"
+                                            src="../../../images/about-me-page-images/linkedin-logo.png"
                                             alt="LinkedIn"
                                             className="contact-icon"
                                         />
                                     </a>
                                     <a href="mailto:romedavid2@outlook.com">
                                         <img
-                                            src="../../../public/images/about-me-page-images/email-logo.png"
+                                            src="../../../images/about-me-page-images/email-logo.png"
                                             alt="romedavid2@outlook.com"
                                             className="contact-icon"
                                         />
@@ -99,7 +99,7 @@ export default function AboutMe() {
                                     <p className="mb-0 text-center">
                                         {description}
                                         <a
-                                            href="../../../public/Romerico David Jr Resume.pdf"
+                                            href="../../../Romerico David Jr Resume.pdf"
                                             target="_blank"
                                             rel="noopener noreferrer"
                                             className="resume-link"

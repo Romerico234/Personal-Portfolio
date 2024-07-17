@@ -4,7 +4,9 @@ export default function Navbar() {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
             <div className="container-fluid">
-                <a className="navbar-brand">Romerico David Jr</a>
+                <a className="navbar-brand" href="#home">
+                    Romerico David Jr
+                </a>
                 <button
                     className="navbar-toggler"
                     type="button"
@@ -22,10 +24,13 @@ export default function Navbar() {
                 >
                     <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li className="nav-item">
-                            <a className="nav-link custom-nav-link" href="about-me">
+                            <a
+                                className="nav-link custom-nav-link"
+                                href="#about-me"
+                            >
                                 About Me
                                 <img
-                                    src="../../../public/images/navbar-images/person.png"
+                                    src="../../../images/navbar-images/person.png"
                                     alt="Home Page"
                                     className="navbar-img"
                                 />
@@ -34,11 +39,11 @@ export default function Navbar() {
                         <li className="nav-item">
                             <a
                                 className="nav-link custom-nav-link"
-                                href="work-experiences"
+                                href="#work-experiences"
                             >
                                 Work Experiences
                                 <img
-                                    src="../../../public/images/navbar-images/suitcase.png"
+                                    src="../../../images/navbar-images/suitcase.png"
                                     alt="Work Experiences!"
                                     className="navbar-img"
                                 />
@@ -47,11 +52,11 @@ export default function Navbar() {
                         <li className="nav-item">
                             <a
                                 className="nav-link custom-nav-link"
-                                href="skills"
+                                href="#skills"
                             >
                                 Skills
                                 <img
-                                    src="../../../public/images/navbar-images/skills.png"
+                                    src="../../../images/navbar-images/skills.png"
                                     alt="Skills!"
                                     className="navbar-img"
                                 />
@@ -60,11 +65,11 @@ export default function Navbar() {
                         <li className="nav-item">
                             <a
                                 className="nav-link custom-nav-link"
-                                href="projects"
+                                href="#projects"
                             >
                                 Projects
                                 <img
-                                    src="../../../public/images/navbar-images/folder.png"
+                                    src="../../../images/navbar-images/folder.png"
                                     alt="Projects!"
                                     className="navbar-img"
                                 />

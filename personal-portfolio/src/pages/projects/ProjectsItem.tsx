@@ -1,5 +1,3 @@
-import githubProjectLink from "../../../public/images/skills-images/github.svg";
-
 interface Project {
     id: number;
     name: string;
@@ -28,7 +26,7 @@ export default function ProjectsItem({ project }: ProjectItemProps) {
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        <img src={githubProjectLink} alt="GitHub link" />
+                        <img src="../../../images/skills-images/github.svg" alt="GitHub link" />
                     </a>
                 </div>
                 <div className="card-body">

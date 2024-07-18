@@ -2,7 +2,7 @@
     {
         "id": 4,
         "name": "Personal Portfolio",
-        "description": "I developed my personal portfolio website built using React.js and TypeScript XML (TSX).  I styled the website using Bootstrap and vanilla CSS.",
+        "description": "I developed my personal portfolio website built using React.js and TypeScript JSX (TSX). I styled the website using Bootstrap and vanilla CSS and deployed the project on Netlify with a custom URL.",
         "link": "https://github.com/Romerico234/Personal-Portfolio",
         "image": "../../../images/projects-images/personal-portfolio.png"
     },

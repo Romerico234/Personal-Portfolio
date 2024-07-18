@@ -2,7 +2,7 @@ import "./Navbar.css";
 
 export default function Navbar() {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <nav className="navbar navbar-expand navbar-light bg-light fixed-top">
             <div className="container-fluid">
                 <a className="navbar-brand" href="#home">
                     Romerico David Jr

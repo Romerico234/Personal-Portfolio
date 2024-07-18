@@ -1,4 +1,5 @@
-import "./Experiences.css";
+import { VerticalTimelineElement } from "react-vertical-timeline-component";
+import "react-vertical-timeline-component/style.min.css";
 
 interface Experience {
     id: number;
@@ -12,26 +13,27 @@ interface Experience {
 
 interface ExperienceItemProps {
     experience: Experience;
-    position: "left" | "right";
 }
 
-export default function ExperiencesItem({
-    experience,
-    position,
-}: ExperienceItemProps) {
+export default function ExperiencesItem({ experience }: ExperienceItemProps) {
     return (
-        <div className={`timeline-item ${position} mt-5 mb-3`}>
-            <div className="timeline-marker"></div>
-            <div className="timeline-content">
-                <h2 className="h5 mb-1">{experience.jobTitle}</h2>
-                <h3 className="h6 text-muted mb-2">
-                    {experience.company} - {experience.location}
-                </h3>
-                <p className="text-muted mb-2">
-                    {experience.startDate} to {experience.endDate}
-                </p>
-                <p>{experience.description}</p>
-            </div>
-        </div>
+        <VerticalTimelineElement
+            date={`${experience.startDate} - ${experience.endDate}`}
+            iconStyle={{ background: "#000", color: "#fff" }}
+            contentStyle={{
+                background: "#f8f9fa",
+                border: "1px solid #dee2e6",
+            }}
+            contentArrowStyle={{ borderRight: "7px solid  #dee2e6" }}
+            icon={<div className="timeline-icon"></div>}
+        >
+            <h3 className="vertical-timeline-element-title">
+                {experience.jobTitle}
+            </h3>
+            <h4 className="vertical-timeline-element-company-and-location">
+                {experience.company} - {experience.location}
+            </h4>
+            <p>{experience.description}</p>
+        </VerticalTimelineElement>
     );
 }

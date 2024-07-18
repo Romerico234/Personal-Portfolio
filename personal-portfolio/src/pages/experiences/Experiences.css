@@ -13,91 +13,22 @@ h1 {
     max-width: fit-content;
 }
 
-.timeline {
-    position: relative;
-    padding: 1.25em 0;
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.vertical-timeline-element-title {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
 }
 
-.timeline::before {
-    content: 'PRESENT';
-    position: absolute;
-    top: -1.5625em;
-    left: 50%;
-    transform: translateX(-50%);
+.vertical-timeline-element-company-and-location {
     font-size: 1.2em;
-    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+.vertical-timeline-element-content {
+    border-radius: 0.625em ;
+    padding: 1em;
+}
+
+.vertical-timeline-element-date {
     color: #000;
-    font-family: 'Nunito Sans', sans-serif;
 }
 
-.timeline::after {
-    content: '';
-    position: absolute;
-    top: 1.25em;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 0.125em;
-    background: #000;
-}
-
-.timeline-item {
-    position: relative;
-    margin-left: 0;
-    width: 80%;
-    max-width: 37.5em;
-    margin-bottom: 1.25em;
-}
-
-.timeline-item.left {
-    align-self: flex-start;
-    text-align: right;
-}
-
-.timeline-item.right {
-    align-self: flex-end;
-    text-align: left;
-}
-
-.timeline-marker {
-    position: absolute;
-    top: 50%;
-    width: 1.5em;
-    height: 1.5em;
-    background: #000;
-    border-radius: 50%;
-    border: 0.25em solid #fff;
-}
-
-.timeline-item.left .timeline-marker {
-    /* Position of the black circle marker to the left side of the content box */
-    right: -10%;
-}
-
-.timeline-item.right .timeline-marker {
-    /* Position of the black circle marker to the right side of the content box */
-    left: -10%;
-}
-
-.timeline-content {
-    background: #f8f9fa;
-    border: 0.0625em solid #dee2e6;
-    border-radius: 0.625em;
-    padding: 0.9375em;
-    box-shadow: 0 0.125em 0.25em rgba(0, 0, 0, 0.1);
-    margin-top: 1.25em;
-}
-
-.timeline-item.left .timeline-content {
-    /* Position of the experience item to the left side of the timeline */
-    margin-right: -5%;
-}
-
-.timeline-item.right .timeline-content {
-    /* Position of the experience item to the right side of the timeline */
-    margin-left: -5%;
-}

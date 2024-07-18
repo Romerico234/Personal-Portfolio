@@ -1,6 +1,7 @@
-import "./Experiences.css";
-import ExperienceItem from "./ExperiencesItem";
+import { VerticalTimeline } from "react-vertical-timeline-component";
+import "react-vertical-timeline-component/style.min.css";
 import experiences from "../../utils/data/work_experiences.json";
+import ExperiencesItem from "./ExperiencesItem";
 
 interface Experience {
     id: number;
@@ -16,23 +17,14 @@ export default function ExperiencesList() {
     return (
         <div className="container mt-5">
             <h1 className="section-header">Work Experiences</h1>
-            <div className="row">
-                <div className="col-md-12">
-                    <div className="timeline">
-                        {experiences.map(
-                            (experience: Experience, index: number) => (
-                                <ExperienceItem
-                                    key={experience.id}
-                                    experience={experience}
-                                    position={
-                                        index % 2 === 0 ? "left" : "right"
-                                    }
-                                />
-                            )
-                        )}
-                    </div>
-                </div>
-            </div>
+            <VerticalTimeline lineColor={"#000"}>
+                {experiences.map((experience: Experience) => (
+                    <ExperiencesItem
+                        key={experience.id}
+                        experience={experience}
+                    />
+                ))}
+            </VerticalTimeline>
         </div>
     );
 }

@@ -1,13 +1,13 @@
 .about-me-container {
     background-color: white;
-    padding: 50px 0;
+    padding: 3.125em 0;
 }
 
 .section-header {
     background-color: #000;
     color: #fff;
-    padding: 10px 20px;
-    border-radius: 5px;
+    padding: 0.625em 1.25em;
+    border-radius: 0.3125em;
     display: inline-block;
     box-shadow: 0.25em 0 0 #f1f1f1, -0.25em 0 0 #f1f1f1;
     font-size: 2em;
@@ -15,8 +15,8 @@
 }
 
 .custom-border {
-    border: 4px solid black;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border: 0.25em solid black;
+    box-shadow: 0em 0.25em 0.5em rgba(0, 0, 0, 0.2);
 }
 
 .resume-link {
@@ -26,21 +26,21 @@
 .contact-info {
     display: flex;
     justify-content: center;
-    gap: 10px;
-    margin-top: 10px;
+    gap: 0.625em;
+    margin-top: 0.625em;
 }
 
 .contact-icon {
-    width: 30px;
-    height: 30px;
+    width: 1.875em;
+    height: 1.875em;
 }
 
 .interest-section {
-    border: 2px solid black;
-    border-radius: 15px;
-    padding: 10px;
+    border: 0.125em solid black;
+    border-radius: 0.9375em;
+    padding: 0.625em;
     width: 30%;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0em 0.25em 0.5em rgba(0, 0, 0, 0.2);
 }
 
 .interest-section h4 {
@@ -53,7 +53,7 @@
 }
 
 .description {
-    margin-top: 10px;
+    margin-top: 0.625em;
 }
 
 .image-grid {
@@ -71,7 +71,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border: 2px solid black;
+    border: 0.125em solid black;
     box-shadow: none;
     margin: 0;
     padding: 0;

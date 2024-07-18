@@ -1,12 +1,12 @@
 h1 {
-    margin-bottom: 40px;
+    margin-bottom: 2.5em;
 }
 
 .section-header {
     background-color: #000;
     color: #fff;
-    padding: 10px 20px;
-    border-radius: 5px;
+    padding: 0.625em 1.25em;
+    border-radius: 0.3125em;
     display: inline-block;
     box-shadow: 0.25em 0 0 #f1f1f1, -0.25em 0 0 #f1f1f1;
     font-size: 2em;
@@ -15,7 +15,7 @@ h1 {
 
 .timeline {
     position: relative;
-    padding: 20px 0;
+    padding: 1.25em 0;
     list-style: none;
     display: flex;
     flex-direction: column;
@@ -25,7 +25,7 @@ h1 {
 .timeline::before {
     content: 'PRESENT';
     position: absolute;
-    top: -25px;
+    top: -1.5625em;
     left: 50%;
     transform: translateX(-50%);
     font-size: 1.2em;
@@ -37,11 +37,11 @@ h1 {
 .timeline::after {
     content: '';
     position: absolute;
-    top: 20px;
+    top: 1.25em;
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
-    width: 2px;
+    width: 0.125em;
     background: #000;
 }
 
@@ -49,8 +49,8 @@ h1 {
     position: relative;
     margin-left: 0;
     width: 80%;
-    max-width: 600px;
-    margin-bottom: 20px;
+    max-width: 37.5em;
+    margin-bottom: 1.25em;
 }
 
 .timeline-item.left {
@@ -66,11 +66,11 @@ h1 {
 .timeline-marker {
     position: absolute;
     top: 50%;
-    width: 24px;
-    height: 24px;
+    width: 1.5em;
+    height: 1.5em;
     background: #000;
     border-radius: 50%;
-    border: 4px solid #fff;
+    border: 0.25em solid #fff;
 }
 
 .timeline-item.left .timeline-marker {
@@ -85,11 +85,11 @@ h1 {
 
 .timeline-content {
     background: #f8f9fa;
-    border: px solid #dee2e6;
-    border-radius: 10px;
-    padding: 15px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin-top: 20px;
+    border: 0.0625em solid #dee2e6;
+    border-radius: 0.625em;
+    padding: 0.9375em;
+    box-shadow: 0 0.125em 0.25em rgba(0, 0, 0, 0.1);
+    margin-top: 1.25em;
 }
 
 .timeline-item.left .timeline-content {

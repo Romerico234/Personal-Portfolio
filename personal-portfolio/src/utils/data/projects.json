@@ -1,23 +1,30 @@
 [
     {
-        "id": 1,
+        "id": 4,
+        "name": "Personal Portfolio",
+        "description": "I developed my personal portfolio website built using React.js and TypeScript XML (TSX).  I styled the website using Bootstrap and vanilla CSS.",
+        "link": "https://github.com/Romerico234/Personal-Portfolio",
+        "image": "../../../images/projects-images/personal-portfolio.png"
+    },
+    {
+        "id": 3,
         "name": "TU Campus Inquiry Project",
         "description": "I developed a web application built using the MEAN stack, Bootstrap, and Nodemailer that enables students to submit inquiries/requests regarding Towson University campuses and connect with counselors.",
         "link": "https://github.com/Romerico234/TU-Campus-Inquiry-Project",
-        "image": "#"
+        "image": "../../../images/projects-images/tu-campus-inquiry.png"
     },
     {
         "id": 2,
         "name": "Murder Mystery Project",
         "description": "I developed a text-based storyline interactive game in Java that focuses on a murder mystery where the player explores a crime scene, finds evidence, investigates clues, and reaches a conclusion. This is the project's second revision, where I refactored the code to include fundamental object-oriented programming principles such as Abstraction, Encapsulation, Inheritance, and Polymorphism.",
         "link": "https://github.com/Romerico234/Murder-Mystery-Project",
-        "image": "#"
+        "image": "../../../images/projects-images/murder-mystery.png"
     },
     {
-        "id": 3,
+        "id": 1,
         "name": "Nonlinear ODEs and PDEs Equivalence Project",
         "description": "This was a group research project for my Ordinary Differential Equations class that focuses on the transformations and equivalence of nonlinear ODEs and linear PDEs in the context of Fluid Dynamics. I independently created a LaTeX file to provide an alternative format for our presentation.",
         "link": "https://github.com/Romerico234/Nonlinear-ODEs-and-Linear-PDEs-Equivalence-in-Fluid-Dynamics",
-        "image": "#"
+        "image": "../../../images/projects-images/differential-equations-equivalence.png"
     }
 ]

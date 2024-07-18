@@ -7,7 +7,7 @@ import ProjectsList from "./pages/projects/ProjectsList";
 import Skills from "./pages/skills/Skills";
 import Footer from "./components/footer/Footer";
 
-function App() {
+export default function App() {
     return (
         <div>
             <Navbar />
@@ -20,5 +20,3 @@ function App() {
         </div>
     );
 }
-
-export default App;

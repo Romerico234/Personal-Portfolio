@@ -8,7 +8,7 @@ This repository contains my personal portfolio website.
 
 - **React.js**
 - **TypeScript XML (TSX)**
-- **CSS**
+- **Bootstrap and Vanilla CSS**
 
 ### Installation
 

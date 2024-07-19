@@ -7,7 +7,7 @@ This repository contains my personal portfolio website.
 ## Technologies Used
 
 - **React.js**
-- **TypeScript XML (TSX)**
+- **TypeScript JSX (TSX)**
 - **Bootstrap and Vanilla CSS**
 
 ### Installation

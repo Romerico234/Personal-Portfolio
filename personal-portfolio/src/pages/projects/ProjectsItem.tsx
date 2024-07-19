@@ -2,7 +2,7 @@ interface Project {
     id: number;
     name: string;
     description: string;
-    link: string; // GitHub link
+    link: string; 
     image: string;
 }
 
@@ -26,7 +26,7 @@ export default function ProjectsItem({ project }: ProjectItemProps) {
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        <img src="../../../images/skills-images/github.svg" alt="GitHub link" />
+                        <img src="../../../images/projects-images/github-icon.png" alt="GitHub link" />
                     </a>
                 </div>
                 <div className="card-body">

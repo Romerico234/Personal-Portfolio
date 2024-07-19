@@ -1,3 +1,7 @@
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
 .navbar-img {
     height: 20px;
     width: auto;

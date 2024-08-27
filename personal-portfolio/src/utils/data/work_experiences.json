@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "company": "SecurEd Inc.",
+        "company": "SecurEd Inc",
         "location": "Towson, MD",
         "jobTitle": "Junior Software Developer",
         "startDate": "Aug 2024",
@@ -10,7 +10,7 @@
     },
     {
         "id": 2,
-        "company": "Y STEM and Chess Inc.",
+        "company": "Y STEM and Chess Inc",
         "location": "Remote",
         "jobTitle": "Software Engineer Intern",
         "startDate": "Aug 2024",

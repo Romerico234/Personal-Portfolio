@@ -1,6 +1,24 @@
 [
     {
         "id": 1,
+        "company": "SecurEd Inc.",
+        "location": "Towson, MD",
+        "jobTitle": "Junior Software Developer",
+        "startDate": "Aug 2024",
+        "endDate": "present",
+        "description": "Incoming Fall 2024"
+    },
+    {
+        "id": 2,
+        "company": "Y STEM and Chess Inc.",
+        "location": "Remote",
+        "jobTitle": "Software Engineer Intern",
+        "startDate": "Aug 2024",
+        "endDate": "present",
+        "description": "Incoming Fall 2024"
+    },
+    {
+        "id": 3,
         "company": "Towson University",
         "location": "Towson, MD",
         "jobTitle": "Computer Science Peer Tutor",
@@ -9,7 +27,7 @@
         "description": "I provide drop-in tutoring sessions for up to 10 students, focusing on Java, Python, and C++. My role involves assisting students in understanding fundamental concepts in data structures, algorithms, and both structured and object-oriented programming principles."
     },
     {
-        "id": 2,
+        "id": 4,
         "company": "Towson University",
         "location": "Towson, MD",
         "jobTitle": "Undergraduate Researcher in Federated Learning",
@@ -18,7 +36,7 @@
         "description": "As an Undergraduate Researcher in Federated Learning at Towson University, I used the Flower Federated Learning (FL) framework, which is based on TensorFlow. My research focused on evaluating and comparing FL aggregation methods like FedAvg, FedProx, and QffedAvg under various types of model poisoning attacks during the data processing and model training stages."
     },
     {
-        "id": 3,
+        "id": 5,
         "company": "Towson University",
         "location": "Towson, MD",
         "jobTitle": "Research Intern",

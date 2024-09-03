@@ -99,7 +99,7 @@ export default function AboutMe() {
                                     <p className="mb-0 text-center">
                                         {description}
                                         <a
-                                            href="../../../Romerico David Jr Resume.pdf"
+                                            href="../../../Romerico David Jr. Resume.pdf"
                                             target="_blank"
                                             rel="noopener noreferrer"
                                             className="resume-link"

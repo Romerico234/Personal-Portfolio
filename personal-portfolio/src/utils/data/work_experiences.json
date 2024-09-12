@@ -1,21 +1,21 @@
 [
     {
         "id": 1,
+        "company": "Y STEM and Chess Inc",
+        "location": "Remote",
+        "jobTitle": "Software Engineer Intern",
+        "startDate": "Dec 2024",
+        "endDate": "present",
+        "description": "Incoming Winter 2025"
+    },
+    {
+        "id": 2,
         "company": "SecurEd Inc",
         "location": "Towson, MD",
         "jobTitle": "Junior Software Developer",
         "startDate": "Aug 2024",
         "endDate": "present",
-        "description": "Incoming Fall 2024"
-    },
-    {
-        "id": 2,
-        "company": "Y STEM and Chess Inc",
-        "location": "Remote",
-        "jobTitle": "Software Engineer Intern",
-        "startDate": "Aug 2024",
-        "endDate": "present",
-        "description": "Incoming Fall 2024"
+        "description": "I am working on the CLARK and Cyber Competencies products to improve user engagement and platform usability. My role includes building scalable RESTful APIs using the MEAN stack and developing tests for platform stability. I also collaborate in Agile sprints and use GitHub for version control to ensure high-quality code and efficient teamwork."
     },
     {
         "id": 3,

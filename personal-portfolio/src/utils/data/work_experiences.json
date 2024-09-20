@@ -1,15 +1,6 @@
 [
     {
         "id": 1,
-        "company": "Y STEM and Chess Inc",
-        "location": "Remote",
-        "jobTitle": "Software Engineer Intern",
-        "startDate": "Dec 2024",
-        "endDate": "present",
-        "description": "Incoming Winter 2025"
-    },
-    {
-        "id": 2,
         "company": "SecurEd Inc",
         "location": "Towson, MD",
         "jobTitle": "Junior Software Developer",
@@ -18,7 +9,7 @@
         "description": "I am working on the CLARK and Cyber Competencies products to improve user engagement and platform usability. My role includes building scalable RESTful APIs using the MEAN stack and developing tests for platform stability. I also collaborate in Agile sprints and use GitHub for version control to ensure high-quality code and efficient teamwork."
     },
     {
-        "id": 3,
+        "id": 2,
         "company": "Towson University",
         "location": "Towson, MD",
         "jobTitle": "Computer Science Peer Tutor",
@@ -27,7 +18,7 @@
         "description": "I provide drop-in tutoring sessions for up to 10 students, focusing on Java, Python, and C++. My role involves assisting students in understanding fundamental concepts in data structures, algorithms, and both structured and object-oriented programming principles."
     },
     {
-        "id": 4,
+        "id": 3,
         "company": "Towson University",
         "location": "Towson, MD",
         "jobTitle": "Undergraduate Researcher in Federated Learning",
@@ -36,7 +27,7 @@
         "description": "As an Undergraduate Researcher in Federated Learning at Towson University, I used the Flower Federated Learning (FL) framework, which is based on TensorFlow. My research focused on evaluating and comparing FL aggregation methods like FedAvg, FedProx, and QffedAvg under various types of model poisoning attacks during the data processing and model training stages."
     },
     {
-        "id": 5,
+        "id": 4,
         "company": "Towson University",
         "location": "Towson, MD",
         "jobTitle": "Research Intern",

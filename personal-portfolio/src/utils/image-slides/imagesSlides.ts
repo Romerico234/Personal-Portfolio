@@ -6,16 +6,13 @@ export const basketballSlides = [
 ];
 
 export const foodSlides = [
-    { src: "../../../images/about-me-page-images/food-gallery/food1.jpg", description: "Cooked up some burger and fries" },
-    { src: "../../../images/about-me-page-images/food-gallery/food2.jpg", description: "Chicken Tikka Masala, Bhindi Masala, and Naan" },
-    { src: "../../../images/about-me-page-images/food-gallery/food3.jpg", description: "Steak Tacos" },
-    { src: "../../../images/about-me-page-images/food-gallery/food4.jpg", description: "Curry Goat and Beef Patty" },
-    { src: "../../../images/about-me-page-images/food-gallery/food5.jpg", description: "Oxtails with Rice and Peas" },
-    { src: "../../../images/about-me-page-images/food-gallery/food6.jpg", description: "Jerk Chicken" },
-    { src: "../../../images/about-me-page-images/food-gallery/food7.jpg", description: "Tuna Poke Bowl" },
-    { src: "../../../images/about-me-page-images/food-gallery/food8.jpg", description: "Chinese Takeout" },
-    { src: "../../../images/about-me-page-images/food-gallery/food9.jpg", description: "Barbeque" },
-    { src: "../../../images/about-me-page-images/food-gallery/food10.jpg", description: "Chiles" },
+    { src: "../../../images/about-me-page-images/food-gallery/food1.jpg", description: "Chicken Tikka Masala, Bhindi Masala, and Naan" },
+    { src: "../../../images/about-me-page-images/food-gallery/food2.jpg", description: "Steak Tacos" },
+    { src: "../../../images/about-me-page-images/food-gallery/food3.jpg", description: "Oxtails with Rice and Peas" },
+    { src: "../../../images/about-me-page-images/food-gallery/food4.jpg", description: "Jerk Chicken" },
+    { src: "../../../images/about-me-page-images/food-gallery/food5.jpg", description: "Tuna Poke Bowl" },
+    { src: "../../../images/about-me-page-images/food-gallery/food6.jpg", description: "Barbeque" },
+    { src: "../../../images/about-me-page-images/food-gallery/food7.jpg", description: "Chiles" },
 ];
 
 

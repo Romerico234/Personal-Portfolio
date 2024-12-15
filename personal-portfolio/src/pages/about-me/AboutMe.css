@@ -21,6 +21,7 @@
 
 .resume-link {
     display: block;
+    text-decoration: underline;
 }
 
 .contact-info {

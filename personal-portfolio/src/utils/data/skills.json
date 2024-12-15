@@ -11,8 +11,8 @@
         { "id": "PL9", "skillName": "LaTeX", "image": "../../../images/skills-images/latex.png" }
     ],
     "Frameworks/Libraries": [
-        { "id": "FL1", "skillName": "Express.js", "image": "../../../images/skills-images/express.webp" },
-        { "id": "FL2", "skillName": "React.js", "image": "../../../images/skills-images/react.png" },
+        { "id": "FL1", "skillName": "Express", "image": "../../../images/skills-images/express.webp" },
+        { "id": "FL2", "skillName": "React", "image": "../../../images/skills-images/react.png" },
         { "id": "FL3", "skillName": "Angular", "image": "../../../images/skills-images/angular.jpg" },
         { "id": "FL4", "skillName": "Jest", "image": "../../../images/skills-images/jest.png" },
         { "id": "FL5", "skillName": "Tailwind", "image": "../../../images/skills-images/tailwind.webp" },

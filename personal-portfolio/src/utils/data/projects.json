@@ -2,14 +2,14 @@
     {
         "id": 4,
         "name": "Towson Academic Pathway (TAP)",
-        "description": "Towson Academic Pathway (TAP) is a web application designed to simplify academic planning for Towson University students. It is built with React on the frontend and MongoDB and Express on the backend. TAP leverages AI to generate personalized degree plans. Key features include a drag-and-drop interface for organizing degree plans, an integrated course catalog for browsing and adding courses, a dedicated page for viewing Towson University requirements, and more. TAP provides an intuitive, efficient, and stress-free solution to the challenges of manual academic planning. Possibly big things coming from this project 👀.",
+        "description": "Towson Academic Pathway (TAP) is a web app designed to simplify academic planning for Towson University students by providing an intuitive, efficient, and stress-free solution to the challenges of manual academic planning. It is built with the MERN stack, styled using Tailwind CSS, and leverages OpenAI to generate personalized degree plans. Key features include a drag-and-drop interface for organizing degree plans, an integrated course catalog for browsing and adding courses, a dedicated page for viewing Towson University requirements, and more. Possibly big things coming for this project 👀.",
         "link": "https://github.com/Romerico234/Towson-Academic-Pathway",
         "image": "../../../images/projects-images/tap-dcp.png"
     },
     {
         "id": 3,
         "name": "nVolve",
-        "description": "nVolve is an iOS app designed to increase student participation in Towson University campus events by addressing the challenges of low attendance caused by ineffective marketing and overlooked emails. It is built using Swift and the app provides real-time notifications for upcoming events, a centralized platform to browse campus activities, and an interactive campus map with markers for events happening for the current day. nVolve streamlines event discovery and makes it easier for students to stay informed and engaged with their campus community.",
+        "description": "My group and I developed an iOS app to increase student participation in Towson University campus events by addressing the challenges of low attendance caused by ineffective marketing and overlooked emails by streamlining event discovery and making it easier for students to stay informed and engaged with nearby events. It is built using Swift and the app provides real-time notifications for upcoming events, a centralized platform to browse campus activities, and an interactive campus map with markers for events happening for the current day. ",
         "link": "https://github.com/Romerico234/nVolve",
         "image": "../../../images/projects-images/nvolve.jpg"
     },

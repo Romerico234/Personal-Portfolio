@@ -1,17 +1,17 @@
 [
     {
         "id": 4,
-        "name": "TU Campus Inquiry Project",
-        "description": "I am developing a web application built using the MEAN stack, Bootstrap, and Nodemailer that enables students to submit inquiries/requests regarding Towson University campuses and connect with counselors. I am currently implementing secure authorization using Auth0 and improving the admin UI.",
-        "link": "https://github.com/Romerico234/TU-Campus-Inquiry-Project",
-        "image": "../../../images/projects-images/tu-campus-inquiry.png"
+        "name": "Towson Academic Planner (TAP)",
+        "description": "Towson Academic Pathway (TAP) is a web application designed to simplify academic planning for Towson University students. It is built with React on the frontend and MongoDB and Express on the backend. TAP leverages AI to generate personalized degree plans. Key features include a drag-and-drop interface for organizing degree plans, an integrated course catalog for browsing and adding courses, a dedicated page for viewing Towson University requirements, and more. TAP provides an intuitive, efficient, and stress-free solution to the challenges of manual academic planning. Possibly big things coming from this project 👀.",
+        "link": "https://github.com/Romerico234/Towson-Academic-Pathway",
+        "image": "../../../images/projects-images/tap-dcp.png"
     },
     {
         "id": 3,
-        "name": "Personal Portfolio",
-        "description": "I developed my personal portfolio website built using React.js and TypeScript JSX (TSX). I styled the website using Bootstrap and vanilla CSS and deployed the project on Netlify with a custom URL.",
-        "link": "https://github.com/Romerico234/Personal-Portfolio",
-        "image": "../../../images/projects-images/personal-portfolio.png"
+        "name": "nVolve",
+        "description": "nVolve is an iOS app designed to increase student participation in Towson University campus events by addressing the challenges of low attendance caused by ineffective marketing and overlooked emails. It is built using Swift and the app provides real-time notifications for upcoming events, a centralized platform to browse campus activities, and an interactive campus map with markers for events happening for the current day. nVolve streamlines event discovery and makes it easier for students to stay informed and engaged with their campus community.",
+        "link": "https://github.com/Romerico234/nVolve",
+        "image": "../../../images/projects-images/nvolve.jpg"
     },
     {
         "id": 2,

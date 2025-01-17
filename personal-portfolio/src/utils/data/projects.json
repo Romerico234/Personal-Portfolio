@@ -2,7 +2,7 @@
     {
         "id": 4,
         "name": "Towson Academic Pathway (TAP)",
-        "description": "Towson Academic Pathway (TAP) is a web app designed to simplify academic planning for Towson University students by providing an intuitive, efficient, and stress-free solution to the challenges of manual academic planning. It is built with the MERN stack, styled using Tailwind CSS, and leverages OpenAI to generate personalized degree plans. Key features include a drag-and-drop interface for organizing degree plans, an integrated course catalog for browsing and adding courses, a dedicated page for viewing Towson University requirements, and more. Possibly big things coming for this project 👀.",
+        "description": "Towson Academic Pathway (TAP) is a web app designed to simplify academic planning for Towson University students by providing an intuitive, efficient, and stress-free solution to the challenges of manual academic planning. It is built with the MERN stack, styled using Tailwind CSS, and leverages OpenAI to generate personalized degree plans. Key features include a drag-and-drop interface for organizing degree plans, an integrated course catalog for browsing and adding courses, a dedicated page for viewing Towson University requirements, and more.",
         "link": "https://github.com/Romerico234/Towson-Academic-Pathway",
         "image": "../../../images/projects-images/tap-dcp.png"
     },
